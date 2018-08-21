@@ -1,38 +1,102 @@
 {
-    "overview" : "examples/api-explorer-local-apis-overview.html",
-    "apis": [ {
-        "api_uid": "api_sample_exchange", 
-        "description": "REST API to search, download, and manage samples on VMware Sample Exchange.", 
-        "name" : "VMware Sample Exchange REST API",
-        "products": [
-            "VMware {code} Sample Exchange;1.0"
-        ], 
-        "resources": {
-        "docs": [
-            {
-            "categories": [
-                "API_OVERVIEW"
+    "apis": [
+        {
+            "api_uid": "api_airwatch_mem_v1", 
+            "description": "", 
+            "name": "MEM API", 
+            "products": [
+                "AirWatch;9.2"
             ], 
-            "downloadUrl": "examples/sx-api-overview.html", 
-            "title": "API Overview", 
-            "webUrl": "examples/sx-api-overview.html"
-            }
-        ]
+            "resources": {
+                "docs": []
+            }, 
+            "type": "swagger", 
+            "url": "local/swagger/Mem_API_V1.json", 
+            "version": "1"
         }, 
-        "type": "swagger", 
-        "version" : "v1",
-        "url" : "https://apigw.vmware.com/sampleExchange/v1/swagger.json",
-        "languages" : ["Java","Python"]
-
-    }, {
-        "name" : "Box.com",
-        "description": "Box.com rest API as maintained at https://github.com/box/box-openapi", 
-        "version" : "v1",
-        "url" : "https://raw.githubusercontent.com/box/box-openapi/master/v2.0/openapi-v2.json",
-        "products": ["Box.com"],
-        "type": "swagger", 
-        "languages" : [".NET"]
-    }
-    
+        {
+            "api_uid": "api_airwatch_system_v2", 
+            "description": "", 
+            "name": "System API V2", 
+            "products": [
+                "AirWatch;9.2"
+            ], 
+            "resources": {
+                "docs": []
+            }, 
+            "type": "swagger", 
+            "url": "local/swagger/System_API_V2.json", 
+            "version": "2"
+        }, 
+        {
+            "api_uid": "api_airwatch_mam_v2", 
+            "description": "", 
+            "name": "MAM API V2", 
+            "products": [
+                "AirWatch;9.2"
+            ], 
+            "resources": {
+                "docs": []
+            }, 
+            "type": "swagger", 
+            "url": "local/swagger/Mam_API_V2.json", 
+            "version": "2"
+        }, 
+        {
+            "api_uid": "api_airwatch_mcm_v1", 
+            "description": "", 
+            "name": "MCM API", 
+            "products": [
+                "AirWatch;9.2"
+            ], 
+            "resources": {
+                "docs": []
+            }, 
+            "type": "swagger", 
+            "url": "local/swagger/Mcm_API_V1.json", 
+            "version": "1"
+        }, 
+        {
+            "api_uid": "api_airwatch_mam_v1", 
+            "description": "", 
+            "name": "MAM API V1", 
+            "products": [
+                "AirWatch;9.2"
+            ], 
+            "resources": {
+                "docs": []
+            }, 
+            "type": "swagger", 
+            "url": "local/swagger/Mam_API_V1.json", 
+            "version": "1"
+        }, 
+        {
+            "api_uid": "api_airwatch_mdm_v1", 
+            "description": "", 
+            "name": "MDM API V2", 
+            "products": [
+                "AirWatch;9.2"
+            ], 
+            "resources": {
+                "docs": []
+            }, 
+            "type": "swagger", 
+            "url": "local/swagger/Mdm_API_V1.json", 
+            "version": "2"
+        }, 
+        {
+            "api_uid": "api_airwatch_system_v1", 
+            "description": "", 
+            "name": "System API V1", 
+            "products": [
+                "AirWatch;9.2"
+            ], 
+            "resources": {
+                "docs": []
+            }, 
+            "type": "swagger", 
+            "url": "local/swagger/System_API_V1.json", 
+            "version": "1"
+        }
     ]
 }
